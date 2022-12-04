@@ -25,4 +25,4 @@ which will provide us the InBuild Functionality for our Token.
 After defining the all the initial points of our smart contract, we are going to start working on our final part, which is just the three lines of code.
 First of all, we are initializing our Contract and giving it a name Token and in same line we are mentioning, it is ERC20 token.
 In second line we are defing properties of our smart contract, by using Constructor and giving it to properties in the string \_name and \_symbol, which we can use to give a name and the symbol to our ERC20 token.
-\_mint is inBuild function from the solidity, which is mint the token to msg.sender(who is using that mint function), 10 \* 10 \*\* 18 is used here for the floating numbers.
+\_mint is inBuild function from the solidity, which is mint the token to msg.sender(who is using that mint function), 1000 we are creating a suppy of 1000 tokens only.
