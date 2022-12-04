@@ -3,12 +3,13 @@
 
 ###SO lets Begin with the code.
 
+```solidity
 //SPDX-Licence-Identifier: MIT
 pragma solidty ^0.8.4;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
-```solidity
+
 contract Token is ERC20 {
 constructor(string memory \_name, string memory \_symbol) ERC20 (token, TK){
 \_mint(msg.sender, 10 \* 10 \*\* 18);
