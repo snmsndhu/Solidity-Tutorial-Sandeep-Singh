@@ -1,7 +1,8 @@
-#Today We are going go discuse about the ERC20 tokens.
-##Ether gives us the power to generate our own cryptocurrency with just few line of code.
+# Today We are going go discuse about the ERC20 tokens.
 
-###SO lets Begin with the code.
+## Ether gives us the power to generate our own cryptocurrency with just few line of code.
+
+### SO lets Begin with the code.
 
 ```solidity
 //SPDX-Licence-Identifier: MIT
