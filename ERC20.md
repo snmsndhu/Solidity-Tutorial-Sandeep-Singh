@@ -11,8 +11,8 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 
 contract Token is ERC20 {
-constructor(string memory \_name, string memory \_symbol) ERC20 (token, TK){
-\_mint(msg.sender, 10 \* 10 \*\* 18);
+constructor(string memory _name, string memory _symbol) ERC20 (token, TK){
+_mint(msg.sender, 10 \* 10 \*\* 18);
 }
 }
 ```
