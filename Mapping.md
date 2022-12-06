@@ -20,3 +20,11 @@ mapping(uint ==> uint) map;
 mapping(address ==> uint) public address;
 mapping(address ==> bool) public registeredAddress;
 ```
+
+## We can Map from one Map to another, by just using **mapping**.
+
+Let understand it by examples.
+
+```solidity
+
+```
