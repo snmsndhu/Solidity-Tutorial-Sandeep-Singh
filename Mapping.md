@@ -28,3 +28,5 @@ Let understand it by examples.
 ```solidity
 mapping(unit => mapping(bool => Data[])) public data;
 ```
+
+See you in next Seasion.
