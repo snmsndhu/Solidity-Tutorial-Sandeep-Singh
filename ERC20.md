@@ -29,4 +29,4 @@ Let me Explain it to you
 5. In second line we are defing properties of our smart contract, by using Constructor and giving it to properties in the string **\_name** and **\_symbol**, which we can use to give a name and the symbol to our ERC20 token.
 6. **\_mint** is inBuild function from the solidity, which is mint the token to msg.sender(who is using that mint function), **1000** we are creating a suppy of **1000** tokens only.
 
-So that it, Have a nice day EveryBody.
+So that's it, Have a nice day EveryBody.
