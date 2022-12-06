@@ -14,3 +14,7 @@ mapping(_key ==> _value) public mappingName;
 4. Then all we have to do is give a **Mapping** name.
 
 ## Let me give you some more examples with Ethereum Supported KeyTypes.
+
+```solidity
+mapping(uint ==> uint) map;
+```
