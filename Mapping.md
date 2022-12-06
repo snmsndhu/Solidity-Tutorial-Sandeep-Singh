@@ -17,4 +17,6 @@ mapping(_key ==> _value) public mappingName;
 
 ```solidity
 mapping(uint ==> uint) map;
+mapping(address ==> uint) public address;
+mapping(address ==> bool) public registeredAddress;
 ```
