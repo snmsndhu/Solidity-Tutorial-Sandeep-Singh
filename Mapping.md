@@ -16,9 +16,9 @@ mapping(_key ==> _value) public mappingName;
 ## Let me give you some more examples with Ethereum Supported KeyTypes.
 
 ```solidity
-mapping(uint ==> uint) map;
-mapping(address ==> uint) public address;
-mapping(address ==> bool) public registeredAddress;
+mapping(uint => uint) map;
+mapping(address => uint) public address;
+mapping(address => bool) public registeredAddress;
 ```
 
 ## We can Map from one Map to another, by just using **mapping**.
@@ -26,5 +26,5 @@ mapping(address ==> bool) public registeredAddress;
 Let understand it by examples.
 
 ```solidity
-
+mapping(unit => mapping(bool => Data[])) public data;
 ```
