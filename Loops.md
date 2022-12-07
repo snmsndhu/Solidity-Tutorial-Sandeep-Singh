@@ -14,7 +14,14 @@ pragma solidity ^0.8.4;
 
 contract Loops {
 function loops () public {
-    for( )
+    for(uint i = 0; i < 10; i++){
+        if( i == 3 ) {
+        continue;
+        }
+        if ( i == 5 ) {
+        break;
+        }
+    }
 }
 }
 ```
