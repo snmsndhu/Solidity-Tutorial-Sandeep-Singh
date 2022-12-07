@@ -17,3 +17,5 @@ Struct Register(
 )
 }
 ```
+
+So, if you are Building an app which needs to store or represent the **Details** of **Record**, then **Structs** are very usefull.
