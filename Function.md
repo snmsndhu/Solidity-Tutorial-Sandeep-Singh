@@ -12,8 +12,12 @@ Lets dive into the example for better understanding.
 pragma solidity ^ 0.8.4;
 
 contract TestFunction {
-    function _name() public view returns {
+    function _name() public view {
      //properties of functions
     }
 }
 ```
+
+### So, its pretty much straight forword.
+
+Lets hava a real life example of function and how to call functions outside the contract.
