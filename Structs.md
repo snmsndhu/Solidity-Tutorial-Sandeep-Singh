@@ -10,6 +10,10 @@ For better **Understanding** let's have a look on an example.
 pragma solidity ^0.8.4;
 
 contract Structs {
-
+Struct Register(
+    string name;
+    uint age;
+    address text;
+)
 }
 ```
