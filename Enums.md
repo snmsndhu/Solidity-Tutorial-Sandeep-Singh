@@ -10,5 +10,15 @@ Let's have a look on real life examples.
 
 pragma solidity ^0.8.4;
 
-contract
+contract Enums {
+
+    enum payment {
+        Pending,
+        Accepted,
+        Rejected,
+        Canceled
+    }
+}
 ```
+
+After defining all the enums, we can use them in varibles.
