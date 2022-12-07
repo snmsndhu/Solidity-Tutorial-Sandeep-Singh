@@ -27,7 +27,11 @@ contract IfElse {
 Lets Check it out.
 
 ```solidity
-    function ternary(uint _x) public pure returns (uint) {
-        return _x < 10 ? 1 : 2;
+    function ternary(uint x) public pure returns (uint) {
+        return x < 5 ? 1 : 2;
     }
 ```
+
+This **IfElse** Statement is way more shorter than the upper statment. Let me Explain it.
+
+**Here** if x is less than 5 it will return 1, otherwise it will return 2. **?** is called **Ternary**
