@@ -4,7 +4,7 @@
 
 Let's have a look on real life examples.
 
-```solidiy
+```solidity
 
 //SPDX-License-Identifier: MIT
 
