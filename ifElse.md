@@ -21,3 +21,11 @@ contract IfElse {
     }
 }
 ```
+
+# We can implement this with Shorter Code.
+
+Lets Check it out.
+
+```solidity
+
+```
