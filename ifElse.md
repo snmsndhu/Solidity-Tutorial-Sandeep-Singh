@@ -10,8 +10,13 @@ So, Let's dive into coding.
 pragma solidity ^0.8.4;
 
 contract IfElse {
-    function IfElse(){
-        if
+    function IfElse(uint x) public pure returns (uint) {
+        if(i < 5){
+            continue;
+        }
+        if(1 < 10){
+            break;
+        }
     }
 }
 ```
