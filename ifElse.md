@@ -27,5 +27,7 @@ contract IfElse {
 Lets Check it out.
 
 ```solidity
-
+    function ternary(uint _x) public pure returns (uint) {
+        return _x < 10 ? 1 : 2;
+    }
 ```
