@@ -12,10 +12,11 @@ pragma solidity ^0.8.4;
 contract IfElse {
     function IfElse(uint x) public pure returns (uint) {
         if(i < 5){
-            continue;
-        }
-        if(1 < 10){
-            break;
+            return 0;
+        }else if (i < 10){
+            return 1;
+        } else {
+            return 2;
         }
     }
 }
