@@ -12,5 +12,9 @@ So, Let's dive into coding.
 
 pragma solidity ^0.8.4;
 
-
+contract Loops {
+function loops () public {
+    for( )
+}
+}
 ```
