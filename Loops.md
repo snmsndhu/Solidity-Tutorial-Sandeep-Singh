@@ -30,3 +30,5 @@ function loops () public {
 }
 }
 ```
+
+That's pretty much it for **Loops**.
