@@ -21,3 +21,21 @@ contract TestFunction {
 ### So, its pretty much straight forword.
 
 Lets hava a real life example of function and how to call functions outside the contract.
+
+```solidity
+//SPDX-Licence-Identifier: MIT
+
+pragma solidity ^0.8.4;
+
+contract Buy {
+    function pay() public payable {
+     //
+    }
+}
+
+//Outside of the contract we can put the helper function.
+
+function setprice(uint _price) public returns(uint) {
+ price = _price;
+}
+```
