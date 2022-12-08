@@ -35,3 +35,5 @@ Lets Check it out.
 This **IfElse** Statement is way more shorter than the upper statment. Let me Explain it.
 
 **Here** if x is less than 5 it will return 1, otherwise it will return 2. **?** is called **Ternary**.
+
+It's kind of same as the other **Languages**.
